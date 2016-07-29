@@ -1,9 +1,9 @@
 PyRoar
 ======
 
-- This Python package aims to provide easy acces to the data stored in the `Pokéapi`_ RESTful service.
+- This Python package aims to provide easy acces to the data served by the `Pokéapi`_ RESTful service.
 
-- This project was conceived as a way to learn how to create classes and methods dynamically. Therefore, the RESTful client classes and their methods to retrieve data are not explicitly defined. The Pokéapi service is asked for the resources it provides and classes and methods are created in real time. This allows adaptability to the service but can can cause some problems if it goes through major changes.
+- This project was conceived as a way to learn how to create classes and methods dynamically. Therefore, RESTful client classes and methods to retrieve data are not explicitly defined. Instead, the Pokéapi service is asked for the resources it provides and classes and methods are created in real time. This allows adaptability to the service but can cause some problems if it goes through major changes.
 
 Pokéapi - The RESTful Pokémon API
 ---------------------------------
@@ -22,7 +22,7 @@ Cloning
 ```````
 PyRoar can be cloned in your local machine by executing in your terminal::
 
-   $ git clone https://github.com/dapregi/pyroar.git
+   $ git clone https://github.com/dapregi/PyRoar.git
 
 Once you have downloaded the project you can install the library::
 
