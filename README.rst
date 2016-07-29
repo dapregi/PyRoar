@@ -74,7 +74,7 @@ Some data can be accessed specifying either id or name:
     >>> pokemon.get_weight('1')
     69
 
-Results are retrieved as JSON. Therefore, they can be queried by key:
+Results are retrieved as JSON formatted data. Therefore, they can be queried by key:
 
 .. code-block:: python
 
@@ -119,7 +119,6 @@ As client classes and client methods are dynamically created, the best way to kn
      'get_pokemon_shape', 'get_pokemon_species', 'get_region', 'get_stat',
      'get_super_contest_effect', 'get_type', 'get_version', 'get_version_group']
 
-    >>> pokemon = pc.get_pokemon()
     >>> pokemon.get_methods()
     ['get', 'get_abilities', 'get_base_experience', 'get_forms',
      'get_game_indices', 'get_height', 'get_held_items', 'get_id',
